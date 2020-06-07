@@ -1,6 +1,6 @@
 FROM centos:7
 
-ENV VERSION="v2.5"
+ENV VERSION="v2.6.0"
 
 RUN yum update -y
 RUN yum groupinstall -y "Development Tools"
